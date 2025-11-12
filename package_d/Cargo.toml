@@ -1,5 +1,5 @@
 [package]
-name = "package_a"
+name = "package_d"
 version.workspace = true
 edition.workspace = true
 
