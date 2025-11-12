@@ -1,6 +1,6 @@
 [package]
 name = "package_c"
-oversion.workspace = true
+version.workspace = true
 edition.workspace = true
 
 [dependencies]
