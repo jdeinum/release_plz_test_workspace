@@ -1,0 +1,231 @@
+{
+  "packages": [
+    {
+      "name": "package_d",
+      "version": { "major": 0, "minor": 2, "patch": 0 },
+      "authors": [],
+      "id": "path+file:///home/deinum/Projects/release_plz_test_workspace/package_d#0.2.0",
+      "source": null,
+      "description": null,
+      "dependencies": [
+        {
+          "name": "anyhow",
+          "source": "registry+https://github.com/rust-lang/crates.io-index",
+          "req": {
+            "comparators": [
+              { "op": "Caret", "major": 1, "minor": 0, "patch": 98, "pre": "" }
+            ]
+          },
+          "kind": "Normal",
+          "optional": false,
+          "uses_default_features": true,
+          "features": [],
+          "target": null,
+          "rename": null,
+          "registry": null,
+          "path": null
+        },
+        {
+          "name": "chrono",
+          "source": "registry+https://github.com/rust-lang/crates.io-index",
+          "req": {
+            "comparators": [
+              { "op": "Caret", "major": 0, "minor": 4, "patch": 42, "pre": "" }
+            ]
+          },
+          "kind": "Normal",
+          "optional": false,
+          "uses_default_features": true,
+          "features": [],
+          "target": null,
+          "rename": null,
+          "registry": null,
+          "path": null
+        }
+      ],
+      "license": null,
+      "license_file": null,
+      "targets": [
+        {
+          "name": "package_d",
+          "kind": ["Lib"],
+          "crate_types": ["Lib"],
+          "required_features": [],
+          "src_path": "/home/deinum/Projects/release_plz_test_workspace/package_d/src/lib.rs",
+          "edition": "E2024",
+          "doctest": true,
+          "test": true,
+          "doc": true
+        }
+      ],
+      "features": {},
+      "manifest_path": "/tmp/unreleased/12_11_2025_17_38/package_d/Cargo.toml",
+      "categories": [],
+      "keywords": [],
+      "readme": null,
+      "repository": null,
+      "homepage": null,
+      "documentation": null,
+      "edition": "E2024",
+      "metadata": null,
+      "links": null,
+      "publish": null,
+      "default_run": null,
+      "rust_version": null
+    },
+    {
+      "name": "package_b",
+      "version": { "major": 0, "minor": 1, "patch": 1 },
+      "authors": [],
+      "id": "path+file:///home/deinum/Projects/release_plz_test_workspace/package_b#0.1.1",
+      "source": null,
+      "description": null,
+      "dependencies": [
+        {
+          "name": "anyhow",
+          "source": "registry+https://github.com/rust-lang/crates.io-index",
+          "req": {
+            "comparators": [
+              { "op": "Caret", "major": 1, "minor": 0, "patch": 98, "pre": "" }
+            ]
+          },
+          "kind": "Normal",
+          "optional": false,
+          "uses_default_features": true,
+          "features": [],
+          "target": null,
+          "rename": null,
+          "registry": null,
+          "path": null
+        },
+        {
+          "name": "chrono",
+          "source": "registry+https://github.com/rust-lang/crates.io-index",
+          "req": {
+            "comparators": [
+              { "op": "Caret", "major": 0, "minor": 4, "patch": 42, "pre": "" }
+            ]
+          },
+          "kind": "Normal",
+          "optional": false,
+          "uses_default_features": true,
+          "features": [],
+          "target": null,
+          "rename": null,
+          "registry": null,
+          "path": null
+        }
+      ],
+      "license": null,
+      "license_file": null,
+      "targets": [
+        {
+          "name": "package_b",
+          "kind": ["Lib"],
+          "crate_types": ["Lib"],
+          "required_features": [],
+          "src_path": "/home/deinum/Projects/release_plz_test_workspace/package_b/src/lib.rs",
+          "edition": "E2024",
+          "doctest": true,
+          "test": true,
+          "doc": true
+        }
+      ],
+      "features": {},
+      "manifest_path": "/tmp/unreleased/12_11_2025_17_38/package_b/Cargo.toml",
+      "categories": [],
+      "keywords": [],
+      "readme": null,
+      "repository": null,
+      "homepage": null,
+      "documentation": null,
+      "edition": "E2024",
+      "metadata": null,
+      "links": null,
+      "publish": null,
+      "default_run": null,
+      "rust_version": null
+    },
+    {
+      "name": "package_c",
+      "version": { "major": 0, "minor": 1, "patch": 2 },
+      "authors": [],
+      "id": "path+file:///home/deinum/Projects/release_plz_test_workspace/package_c#0.1.2",
+      "source": null,
+      "description": null,
+      "dependencies": [
+        {
+          "name": "anyhow",
+          "source": "registry+https://github.com/rust-lang/crates.io-index",
+          "req": {
+            "comparators": [
+              { "op": "Caret", "major": 1, "minor": 0, "patch": 98, "pre": "" }
+            ]
+          },
+          "kind": "Normal",
+          "optional": false,
+          "uses_default_features": true,
+          "features": [],
+          "target": null,
+          "rename": null,
+          "registry": null,
+          "path": null
+        },
+        {
+          "name": "chrono",
+          "source": "registry+https://github.com/rust-lang/crates.io-index",
+          "req": {
+            "comparators": [
+              { "op": "Caret", "major": 0, "minor": 4, "patch": 42, "pre": "" }
+            ]
+          },
+          "kind": "Normal",
+          "optional": false,
+          "uses_default_features": true,
+          "features": [],
+          "target": null,
+          "rename": null,
+          "registry": null,
+          "path": null
+        }
+      ],
+      "license": null,
+      "license_file": null,
+      "targets": [
+        {
+          "name": "package_c",
+          "kind": ["Lib"],
+          "crate_types": ["Lib"],
+          "required_features": [],
+          "src_path": "/home/deinum/Projects/release_plz_test_workspace/package_c/src/lib.rs",
+          "edition": "E2024",
+          "doctest": true,
+          "test": true,
+          "doc": true
+        }
+      ],
+      "features": {},
+      "manifest_path": "/tmp/unreleased/12_11_2025_17_38/package_c/Cargo.toml",
+      "categories": [],
+      "keywords": [],
+      "readme": null,
+      "repository": null,
+      "homepage": null,
+      "documentation": null,
+      "edition": "E2024",
+      "metadata": null,
+      "links": null,
+      "publish": null,
+      "default_run": null,
+      "rust_version": null
+    }
+  ],
+  "release_metadata": {
+    "package_d": { "tag_name_template": null, "release_name_template": null },
+    "package_b": { "tag_name_template": null, "release_name_template": null },
+    "package_c": { "tag_name_template": null, "release_name_template": null }
+  },
+  "root": "/tmp/unreleased/12_11_2025_17_38",
+  "manifest_dir": "/tmp/unreleased/12_11_2025_17_38",
+  "contains_multiple_pub_packages": true
+}
