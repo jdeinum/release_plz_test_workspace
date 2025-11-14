@@ -33,6 +33,6 @@ publish = false
 git_only_release_regex = "v(([0-9]\\.?)+)"
 
 
-[[package]]
-name = "package_d"
-git_only_release_regex = ""
+# [[package]]
+# name = "package_d"
+# git_only_release_regex = ""
