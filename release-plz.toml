@@ -29,10 +29,12 @@ semver_check = false
 # no push to cargo registry
 publish = false
 
+git_only = true
+
 # the regex we use to determine a release from git tags
 git_only_release_regex = "v(([0-9]\\.?)+)"
 
 
-[[package]]
-name = "package_d"
-git_only_release_regex = ""
+# [[package]]
+# name = "package_d"
+# git_only_release_regex = ""
