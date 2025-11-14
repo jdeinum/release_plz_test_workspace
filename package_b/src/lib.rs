@@ -1,5 +1,5 @@
-pub fn add_2(left: u64, right: u64) -> u64 {
-    left + right + 2
+pub fn add_5(left: u64, right: u64) -> u64 {
+    left + right + 5
 }
 
 #[cfg(test)]
@@ -8,7 +8,7 @@ mod tests {
 
     #[test]
     fn it_works() {
-        let result = add_2(2, 2);
-        assert_eq!(result, 6);
+        let result = add_5(2, 2);
+        assert_eq!(result, 9);
     }
 }
